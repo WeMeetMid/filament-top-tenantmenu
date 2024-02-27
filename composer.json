@@ -1,0 +1,36 @@
+{
+    "name": "meeftah/filament-top-tenantmenu",
+    "description": "Filement Topbar Tenant Menu",
+    "type": "library",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Meeftah\\FilamentTopTenantmenu\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "meeftah",
+            "email": "miftah.yuda@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "php": "^8.1",
+        "filament/filament": "^3.0",
+        "spatie/laravel-package-tools": "^1.16"
+    },
+    "require-dev": {
+        "laravel/pint": "^1.10"
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "\\Meeftah\\FilamentTopTenantmenu\\FilamentTopTenantmenuServiceProvider"
+            ]
+        }
+    },
+    "scripts": {
+        "pint": "vendor/bin/pint"
+    }
+}
