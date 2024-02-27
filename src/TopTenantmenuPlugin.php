@@ -1,6 +1,6 @@
 <?php
 
-namespace Meeftah\FilamentTopTenantmenu;
+namespace WeMeetMid\FilamentTopTenantmenu;
 
 use Closure;
 use Filament\Contracts\Plugin;

@@ -1,6 +1,6 @@
 <?php
 
-namespace Meeftah\FilamentTopTenantmenu;
+namespace WeMeetMid\FilamentTopTenantmenu;
 
 use Spatie\LaravelPackageTools\Package;
 use Spatie\LaravelPackageTools\PackageServiceProvider;

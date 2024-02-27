@@ -1,11 +1,11 @@
 {
-    "name": "meeftah/filament-top-tenantmenu",
+    "name": "wemeetmid/filament-top-tenantmenu",
     "description": "Filement Topbar Tenant Menu",
     "type": "library",
     "license": "MIT",
     "autoload": {
         "psr-4": {
-            "Meeftah\\FilamentTopTenantmenu\\": "src/"
+            "WeMeetMid\\FilamentTopTenantmenu\\": "src/"
         }
     },
     "authors": [
@@ -26,7 +26,7 @@
     "extra": {
         "laravel": {
             "providers": [
-                "\\Meeftah\\FilamentTopTenantmenu\\FilamentTopTenantmenuServiceProvider"
+                "\\WeMeetMid\\FilamentTopTenantmenu\\FilamentTopTenantmenuServiceProvider"
             ]
         }
     },
